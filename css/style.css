@@ -1,1 +1,66 @@
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+	background-color: #333333;
+	color: #ffffff;
+}	
+
+@media only screen and (max-width: 767px) {
+#video img{
+/* locacion de la imagen */
+background-image: url(img\Azul400x173.png);
+	  
+/* Background image es centrado verticalmente y horizontalmente todo el tiempo */
+background-position: center center;
+	  
+/* Background image no se repita */
+background-repeat: no-repeat;
+	  
+/* Background image is fixed in the viewport so that it doesn't move when 
+   the content's height is greater than the image's height */
+background-attachment: fixed;
+	  
+/* This is what makes the background image rescale based
+   on the container's size */
+background-size: cover;
+	  
+/* Set a background color that will be displayed
+   while the background image is loading */
+background-color: #464646;
+	}
+}
+
+#somos #img{
+
+	float: left;
+	width: "40%";
+}
+#somos #txt{
+	float: left;
 	
+	width: "60%";
+}
+#mision #img{
+	float: left;
+	
+	width: "40%";
+}
+#mision #txt{
+	float: left;
+	
+	width: "60%";
+}
