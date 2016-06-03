@@ -44,23 +44,28 @@ background-color: #464646;
 	}
 }
 
-#somos #img{
+.container .somos .img{
+	width: 40%;
+	height: 500px;
+	float: left;
+	background-color: red;
+}
+.container .somos .txt{
+	float: left;
+	height: 500px;
+	width: 60%;
+	background-color: blue;
+}
 
+.container .mision .img{
+	width: 40%;
+	height: 500px;
 	float: left;
-	width: "40%";
+	background-color: red;
 }
-#somos #txt{
+.container .mision .txt{
 	float: left;
-	
-	width: "60%";
-}
-#mision #img{
-	float: left;
-	
-	width: "40%";
-}
-#mision #txt{
-	float: left;
-	
-	width: "60%";
+	height: 500px;
+	width: 60%;
+	background-color: blue;
 }
