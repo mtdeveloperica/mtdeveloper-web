@@ -1,3 +1,11 @@
+body{
+	margin:auto;
+	padding: auto;
+	width: auto;
+
+
+}
+
 #navegador ul{
    list-style-type: none;
    text-align: center;
@@ -19,53 +27,33 @@
 	color: #ffffff;
 }	
 
-@media only screen and (max-width: 767px) {
-#video img{
-/* locacion de la imagen */
-background-image: url(img\Azul400x173.png);
-	  
-/* Background image es centrado verticalmente y horizontalmente todo el tiempo */
-background-position: center center;
-	  
-/* Background image no se repita */
-background-repeat: no-repeat;
-	  
-/* Background image is fixed in the viewport so that it doesn't move when 
-   the content's height is greater than the image's height */
-background-attachment: fixed;
-	  
-/* This is what makes the background image rescale based
-   on the container's size */
-background-size: cover;
-	  
-/* Set a background color that will be displayed
-   while the background image is loading */
+
+.video{
+width: auto;
+height: 600px;
 background-color: #464646;
-	}
+}
+.video img{
+ width: 80px;
+ height: 50px;
 }
 
-.container .somos .img{
-	width: 40%;
+
+.container .nosotros .img{
+	width:  40%;
 	height: 500px;
 	float: left;
 	background-color: red;
-}
-.container .somos .txt{
-	float: left;
-	height: 500px;
-	width: 60%;
-	background-color: blue;
-}
 
-.container .mision .img{
-	width: 40%;
-	height: 500px;
-	float: left;
-	background-color: red;
 }
-.container .mision .txt{
+.container .nosotros .img img{
+	width:  400px;
+	height: 200px;
+}
+.container .nosotros .txt{
+	width:  60%;
 	float: left;
 	height: 500px;
-	width: 60%;
+	
 	background-color: blue;
 }
