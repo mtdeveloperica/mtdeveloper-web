@@ -23,8 +23,8 @@ body{
 	position: relative;
 }
 .video-container .video{
-	width: 115%;
-	height: 115%;
+	width: 120%;
+	height: 120%;
 	background-image: url(../img/background.jpg);
 	background-size: cover;
 	background-position: center;
@@ -47,7 +47,7 @@ body{
 	width: 400px;
 	margin: 0 auto;
 	position: relative;
-	margin-top: -500px;
+	margin-top: -470px;
 }
 .video-container .logo img {
 	width: 100%;
@@ -55,7 +55,7 @@ body{
 
 /*-- Options Container --*/
 .video-container nav {
-	margin-top: 100px;
+	margin-top: 60px;
 	position: relative;
 }
 .video-container nav ul{
