@@ -1,32 +1,21 @@
+@font-face {
+	font-family: SegoeUI;
+	src: url(../_files/SegoeUI.ttf);
+}
+@font-face {
+	font-family: SegoeUI-Light;
+	src: url(../_files/SegoeUI-Light.ttf);
+}
+
 body{
-	margin:auto;
-	padding: auto;
-	width: auto;
-
-
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: SegoeUI;
 }
 
-#navegador ul{
-   list-style-type: none;
-   text-align: center;
-}
-#navegador li{
-   display: inline;
-   text-align: center;
-   margin: 0 10px 0 0;
-}
-#navegador li a {
-   padding: 2px 7px 2px 7px;
-   color: #666;
-   background-color: #eeeeee;
-   border: 1px solid #ccc;
-   text-decoration: none;
-}
-#navegador li a:hover{
-	background-color: #333333;
-	color: #ffffff;
-}	
-
+/*-- Video Container --*/
 .video-container {
 	width: 100%;
 	height: 550px;
@@ -63,6 +52,46 @@ body{
 .video-container .logo img {
 	width: 100%;
 }
+
+/*-- Options Container --*/
+.video-container nav {
+	margin-top: 100px;
+	position: relative;
+}
+.video-container nav ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0 auto;
+   width: 550px;
+}
+.video-container nav ul li {
+	width: 115px;
+	height: 115px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 25px;
+}
+.video-container nav ul li:nth-child(4) {
+	margin-right: 0;
+}
+.video-container nav ul li a {
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	background-color: #2EA1E6;
+	text-decoration: none;
+	display: block;
+}
+.video-container nav ul li a img {
+	height: 45px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.video-container li a:hover{
+	background-color: #0F6B99;
+}	
 
 .container .nosotros .img{
 	width:  40%;
