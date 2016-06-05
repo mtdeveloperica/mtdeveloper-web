@@ -10,3 +10,7 @@
 
 ## Ambiente en local
 - Abrir <http://localhost:8080/app>
+
+## API
+Agregar al header:
+- `Access-Control-Allow-Origin : http://localhost:8080`
