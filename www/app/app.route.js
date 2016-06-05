@@ -7,7 +7,11 @@
         .when("/",{
             templateUrl: "main/main.html",
             controller : "MainController"
-        }).otherwise({redirectTo:"/main"});
+        }).otherwise({redirectTo: "/"});
+        .when("/equipo", {
+        	templateUrl: "team/team.html",
+        	controller: "TeamController"
+        }).otherwise({redirectTo: "/equipo"});
     })
     
 })(window.angular);
