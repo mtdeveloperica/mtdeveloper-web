@@ -1,0 +1,27 @@
+{
+  "name": "mtdeveloperWeb",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "'jeanz' <'jeanz.villafuerte@outlook.com'>"
+  ],
+  "keywords": [
+    "mtdeveloper"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/MTDeveloperIca/mtdeveloper-web",
+  "private": true,
+  "dependencies": {
+    "angular-route": "^1.5.6",
+    "angular": "^1.5.6"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
+}
