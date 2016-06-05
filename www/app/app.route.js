@@ -7,7 +7,7 @@
         .when("/",{
             templateUrl: "main/main.html",
             controller : "MainController"
-        }).otherwise({redirectTo: "/"});
+        }).otherwise({redirectTo: "/"})
         .when("/equipo", {
         	templateUrl: "team/team.html",
         	controller: "TeamController"

@@ -1,4 +1,4 @@
 (function () {
 	'use strict'
-	angular.module("mtdeveloper", ['ngRoute','mainView', 'teamView']);
+	angular.module("mtdeveloper", ['ngRoute', 'mainView', 'teamView']);
 })();
