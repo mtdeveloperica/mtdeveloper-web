@@ -13,6 +13,7 @@ body{
 	width: 100%;
 	height: 100%;
 	font-family: SegoeUI;
+	
 }
 
 /*-- Video Container --*/
@@ -93,22 +94,63 @@ header li a:hover{
 	background-color: #0F6B99;
 }	
 figure .sms-f{
-	float: right;
+	display: inline-block;
 	
 
 }
 article .sms-p{
-	display: inline-block;
+	float: left;
 	
 }
 
+
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: #393939;
+	color: #f0f0f0;
+	font-size: 14px;
+}
+footer .container{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	
+}
+footer figure{
+	display: inline-block;
+	height: 52px;
+	margin:24px 0;
 }
 footer figure img{
-	display: inline-block;
-	width: 6%;
-	height: 7%;
+	
+	height: 100%;
+  	
+}
+footer nav{
+	display:inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+footer nav ul{
+	list-style-type: none;
+	padding: 0;
+
 }
 footer nav ul li{
 	display: inline-block;
+	width: 56px;
+  height: 19px;
+  font-family: SegoeUI;
+  margin-left: 50px;	
+}
+footer nav ul li a {
+	width: 100%;
+	height: 100%;
+	color: #f0f0f0;
 	
+	text-decoration: none;
 }
