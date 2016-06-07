@@ -107,7 +107,7 @@ article .sms-p{
 footer {
 	height: 100px;
 	width: 100%;
-	background-color: #393939;
+	background-color: red;
 	color: #f0f0f0;
 	font-size: 14px;
 }
@@ -118,7 +118,7 @@ footer .container{
 	position: relative;
 	
 }
-footer figure{
+footer figure {
 	display: inline-block;
 	height: 52px;
 	margin:24px 0;
@@ -153,4 +153,17 @@ footer nav ul li a {
 	color: #f0f0f0;
 	
 	text-decoration: none;
+}
+footer .social{
+	display: inline-block;
+	right: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+footer .social img{
+	display: inline-block;
+	margin-left: 30px;
+
 }
