@@ -92,17 +92,59 @@ header nav ul li a img {
 }
 header li a:hover{
 	background-color: #0F6B99;
+}
+section{
+	height: 100%;
+	width: 100%;
+	background-color: green;
+
+	
 }	
-figure .sms-f{
+div#flex-container {
+	margin: 0; padding: 0;
+	display: flex;
+	height: 377px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+div#flex-container figure{
 	display: inline-block;
+	height: 260px;
+	width: 463px;
+	margin: 60px 0;
 	
 
 }
-article .sms-p{
-	float: left;
-	
-}
+div#flex-container figure img{
+	height: 100%;
+	width: 100%;
 
+}
+div#flex-container article{
+	display: inline-block;
+	height: 260px;
+	width: 537px;
+	margin: 0 0;
+}
+div#flex-container article p{
+	height: 100%;
+	width: 100%;
+}	
+div#flex-container article.ms-p{
+	display:inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+div#flex-container article.sms-p{
+	display:inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
 footer {
 	height: 100px;
