@@ -1,109 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MTDeveloper - Inicio</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css\normalize.css">
+    <meta charset="UTF-8">
+    <link href="flex.css" rel="stylesheet" type="text/css">
+    <title>MTDeveloper</title>
 </head>
 <body>
-  <header>
-    <div class="video">
-      <div class="blur">
-      </div>
-    </div>
-    <div class="logo">
-      <a href="#"><img src="img\Blanco1200x519.png"></a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#"><img src="img/icon-Resources.png" alt="Recursos">Recursos</a></li>
-        <li><a href="#"><img src="img/icon-Downloads.png" alt="Descargas">Descargas</a></li>
-        <li><a href="#"><img src="img/icon-News.png" alt="Novedades">Novedades</a></li>
-        <li><a href="file:///home/takeshi-pc/Documentos/mtdeveloper-web/equipo.html"><img src="img/icon-Team.png" alt="Equipo">Equipo</a></li>
-      </ul> 
-    </nav>
-  </header>
-
-  <section class="container">
-    <article class="flex-container">
-      <div class="info-article">
-        <h2>¿Quiénes somos?</h2>
-        <p>Somos un Club de Estudiantes o Comunidad Académica encargada de la difusión de tecnologías Microsoft y entrenamiento de estudiantes para que se puedan desarrollar en el mundo de la computación e informática, teniendo como objetivo lograr la formación de profesionales de calidad.</p>
-      </div>
-      <figure>
-        <img src="img\somos.png">
-      </figure>
-    </article>
-    <article class="flex-container">
-      <div class="info-article">
-        <h2>¿Qué hacemos?</h2>
-        <p>Compartir recursos tecnológicos y seguir aprendiendo con todos los miembros de nuestra comunidad amantes de la tecnología.</p>
-      </div>
-      <figure>
-        <img src="img\somos.png">
-      </figure>
-    </article>
-  </section>
-  
-  <section>
-    <div class="unirse-container">
-      <img src="" alt="">
-      <h2>¿Cómo unirse?</h2>
-      <p>Si estas interesado en unirte a la comunidad MTDeveloper déjanos tus datos y no dejes de participar en nuestros eventos.</p>
-    </div>
-    
-    <div id="form-main">
-      <div id="form-div">
-        <form class="form" id="form1">
-          <p class="name">
-            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Escribe tu nombre" id="name" required />
-          </p>
-          <p class="email">
-            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="E-mail" required />
-          </p>
-          <p class="universidad">
-            <input name="universidad" type="text" class="validate[required,custom[universidad]] feedback-input" id="universidad" placeholder="Universidad" required />
-          </p>
-          <p class="ciclo">
-            <input name="ciclo" type="text" class="validate[required,custom[ciclo]] feedback-input" id="ciclo" placeholder="Ciclo" />
-          </p>
-      
-          <div class="submit">
-            <input type="submit" value="Apuntarme" id="button-blue"/>
-            <div class="ease"></div>
-          </div>
-        </form> 
-      </div>
-      
-    </div> 
-    
-  </section>
-
-  <footer>
-    <div class="container">
-        <figure>
-          <a href=""><img src="img\Blanco1200x519.png" alt=""></a>
+    <header>
+        <figure class="logo">
+            <img src="img/Blanco800x346.png" alt="">
         </figure>
-    
         <nav>
-          <ul>
-            <li><a href="">Recursos</a></li>
-            <li><a href="">Descargas</a></li>
-            <li><a href="">Novedades</a></li>
-            <li><a href="">Equipo</a></li>
-          </ul>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Recursos</a></li>
+                <li><a href="">Novedades</a></li>
+                <li><a href="">Equipos</a></li>
+            </ul>
         </nav>
-        <div class="social">
-            <a href="https://www.facebook.com/mtdeveloper/?fref=ts"  target="_blank"><img src="img\facebook.png" alt=""></a>
-            <a href="" target="_blank"><img src="img\twitter.png" alt=""></a>
-            <a href="" target="_blank"><img src="img\linked-in.png" alt=""></a>
-            <a href="https://github.com/MTDeveloperIca" target="_blank"><img src="img\github.png" alt=""></a>
-        </div>
+    </header>
+    <section class="container">
+        <article class="content">
+            <figure>
+                <img src="img/img1.png" alt="">
+            </figure>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan nisl ac sapien ultrices suscipit. Sed velit sapien, iaculis nec fermentum vel, scelerisque vitae leo. Donec sit amet accumsan risus. Nulla viverra lectus nec nibh scelerisque, ac ornare urna sodales. In egestas consectetur magna non mattis. Suspendisse a nunc porta, porttitor leo vel, suscipit eros. Nullam consequat neque non hendrerit ultrices. Aenean quis ultricies leo, sed fermentum nisl. Etiam ornare, leo sed vehicula convallis, arcu urna consectetur est, ac consequat lectus orci quis diam. Sed vitae purus ultrices, faucibus diam at, ullamcorper purus. Fusce dui odio, condimentum ornare semper sollicitudin, ultrices sit amet libero. Proin iaculis ligula eu ante pharetra, ac fringilla purus maximus.
+            </p>
+        </article>
+        <article class="content">
+            <figure>
+                <img src="img/img2.png" alt="">
+            </figure>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan nisl ac sapien ultrices suscipit. Sed velit sapien, iaculis nec fermentum vel, scelerisque vitae leo. Donec sit amet accumsan risus. Nulla viverra lectus nec nibh scelerisque, ac ornare urna sodales. In egestas consectetur magna non mattis. Suspendisse a nunc porta, porttitor leo vel, suscipit eros. Nullam consequat neque non hendrerit ultrices. Aenean quis ultricies leo, sed fermentum nisl. Etiam ornare, leo sed vehicula convallis, arcu urna consectetur est, ac consequat lectus orci quis diam. Sed vitae purus ultrices, faucibus diam at, ullamcorper purus. Fusce dui odio, condimentum ornare semper sollicitudin, ultrices sit amet libero. Proin iaculis ligula eu ante pharetra, ac fringilla purus maximus.
+            </p>
+        </article>
+    </section>
+    <section class="container">
+      <article class="content">
+        <figure><img src="img/facebook.png" alt=""></figure>
+        <h2>contactenos</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ut quo excepturi sapiente veniam, magni officia nulla doloremque suscipit at rem expedita consequuntur necessitatibus doloribus fuga facilis ea hic libero.</p>
+      </article>
+      <form action="form">
+        <div><input type="text"></div>
+        <div><input type="text"></div>
+        <div><input type="text"></div>
+        <div><input type="text"></div>
+        <div><input type="submit"></div>
         
-    </div>
-    
-
-  </footer>
-</body> 
+        
+        
+        
+        
+      </form>
+    </section>
+    <footer>
+        <figure>
+            <img src="img/Blanco200x87.png" alt="">
+        </figure>
+        <section class="links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Recursos</a></li>
+                <li><a href="">Novedades</a></li>
+                <li><a href="">Equipos</a></li>
+            </ul>
+        </section>
+        <section class="social">
+            <figure><img src="img/facebook.png" alt=""></figure>
+            <figure><img src="img/twitter.png" alt=""></figure>
+            <figure><img src="img/linked-in.png" alt=""></figure>
+            <figure><img src="img/github.png" alt=""></figure>
+        </section>
+    </footer>
+</body>
 </html>
