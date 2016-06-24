@@ -26,7 +26,7 @@ a {
 
 /* Header */
 header {
-    background-image: url("img/header-background.png");
+    background-image: url("../img/header-background.png");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -87,18 +87,22 @@ header nav ul li:nth-child(2n) {
     flex: 1;
 }
 .container figure {
-    flex: 1
+    flex: 1;
 }
 .container-1{
+    background: #45b8e6;
     flex:1;
     display: flex;
     flex-direction: column;
-    margin: 66px;
+    padding-top: 66px;
+    padding-bottom: 66px;
 }
 .container-1 .content-1{
     flex:1;
     display: flex;
     flex-direction: column;
+    padding-bottom: 15px;
+
 }
 .container-1 .content-1 figure{
     flex:1;
@@ -114,10 +118,22 @@ header nav ul li:nth-child(2n) {
     width: 60px; 
 
 }
-.container-1 .content-1 h2, .container-1 .content-1 p{
+.container-1 .content-1 h2{
     flex:1;
     align-content: center;
     text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #ffffff;
+} 
+.container-1 .content-1 p{
+    flex:1;
+    align-content: center;
+    text-align: center;
+    background-color: #45b8e6;
+    color:#ffffff;
+    padding: 0 18% 0 18%;    
+
 }
 .container-1 form{
     flex:1;
@@ -126,7 +142,29 @@ header nav ul li:nth-child(2n) {
     align-items: center;
     flex-direction: column;
 }
+.container-1 form div{
+    margin: 5px;
+}
 
+.container-1 form div input{
+    width: 280px;
+    height: 30px;
+    border: 0px;
+    text-align: center;
+
+    color: #0f6b99;
+    ::-webkit-input-placeholder { color: #0f6b99; } /* WebKit */
+    :-moz-placeholder { color: #0f6b99; } /* Firefox 18- */
+    ::-moz-placeholder { color: #0f6b99; } /* Firefox 19+ */
+    :-ms-input-placeholder { color: #0f6b99; } /* IE 10+ */
+
+}
+.container-1 form div input.enviar{
+    width: 157px;
+    height: 30px;
+    background-color: #0f6b99;
+    color: #ffffff;
+}
 
 
 /* Footer */
@@ -152,7 +190,7 @@ footer figure img {
     margin-bottom: 40px;
 }
 footer .links {
-    flex: 1
+    flex: 1;
 }
 footer .links li {
     height: 40px;
@@ -181,4 +219,127 @@ footer .social figure img {
     width: 30%;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+
+@media (min-width: 480px) {
+    .container figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    figure img {
+         width: 70%;
+    }
+
+    header .logo img {
+        width: 50%;
+    }
+
+    footer .links {
+        width: 100%;
+    }
+
+    footer .links ul {
+        display: flex;
+        width: 100%;
+    }
+
+    footer .links li {
+        width: 100%;
+    }   
+
+    footer .social figure img {
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding-bottom: 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    footer figure img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 50%;
+    }
+
+    footer .links {
+        flex: 2;
+    }
+    
+    footer .links ul {
+        width: 80%;
+    }
+
+    footer .links ul li {
+        margin-left: 10px;
+    }
+
+    footer .social {
+        margin-top: 0;
+        margin-left: 70px;
+    }
+
+    footer .social figure img {
+        width: 40%;
+    }  
+
+
+
+    footer figure img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 50%;
+    }
+ 
+}
+
+@media (min-width: 1024px) {
+    .container .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container .content figure {
+        order:1;
+        flex: 1;
+    }
+
+    .container .content figure img{
+        
+        width: 80%;
+    }
+
+    .container .content .texto{
+        order:2;
+        flex: 1;
+    }
+    
+    .container .content:nth-child(2n) figure {
+        order:2;
+    }
+    .container .content:nth-child(2n) .texto {
+        order:1;
+        text-align: right;
+    }
+
+    footer figure img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 50%;
+    }
+
+    footer .links ul {
+        width: 80%
+    }
+
+    footer .social figure img {
+        width: 30%;
+    }
+
 }
