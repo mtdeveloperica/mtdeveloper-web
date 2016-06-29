@@ -76,7 +76,7 @@ header nav ul li:nth-child(2n) {
 /* Container */
 .container {
     padding-top: 60px;
-    padding: 10%;
+    padding: 5%;
     flex: 1;
     
     display: flex;
@@ -352,7 +352,7 @@ footer .social figure img {
     flex-direction: row;
 }
 
-.container article.content:nth-child(2){
+.container article.content:nth-last-child(1){
     margin-bottom: 0px;
 }
 
